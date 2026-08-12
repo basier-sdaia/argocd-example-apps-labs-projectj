@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: guestbook-ui-configmap
+  namespace: guestbook
+data:
+  message: "Welcome to the Guestbook UI!"
